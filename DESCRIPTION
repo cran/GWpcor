@@ -1,7 +1,7 @@
 Package: GWpcor
 Type: Package
 Title: Geographically Weighted Partial Correlation Coefficient
-Version: 0.1.4
+Version: 0.1.5
 Authors@R: 
     c(person(given = "Narumasa",
              family = "Tsutsumida",
@@ -23,10 +23,10 @@ Imports: methods, dplyr, sp, sf, geodist, pracma, corpcor, foreach,
 SystemRequirements: C++11, GDAL (>= 2.0.1), GEOS (>= 3.4.0), PROJ (>=
         4.8.0)
 NeedsCompilation: no
-Packaged: 2020-11-14 08:49:05 UTC; nt
+Packaged: 2020-11-28 13:19:27 UTC; nt
 Author: Narumasa Tsutsumida [aut, cre]
     (<https://orcid.org/0000-0002-6333-0301>),
   Joseph Percival [aut]
 Maintainer: Narumasa Tsutsumida <rsnaru.jp@gmail.com>
 Repository: CRAN
-Date/Publication: 2020-11-14 13:00:09 UTC
+Date/Publication: 2020-11-28 13:40:02 UTC
