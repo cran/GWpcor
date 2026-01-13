@@ -66,8 +66,8 @@ Whether parallel computation is implemented or not.
 }
 
 \value{
-  \item{SDF }{
-  A SpatialPointsDataFrame (may be gridded) or SpatialPolygonsDataFrame object (see package “sp”) when the input is Spatial*DataFrame or a sf class object when input is sf, with local covariances, local correlations (Pearson's), local correlations (Spearman's),  p-values of local correlations (Pearson's), p-values of local correlations (Spearman's), local partial correlations (Pearson's), local partial correlations (Spearman's), p-values of local partial correlations (Pearson's), and p-values of local partial correlations (Spearman's).
+  \item{SDF}{
+  A SpatialPointsDataFrame (may be gridded) or SpatialPolygonsDataFrame object (see package \pkg{sp}) when the input is Spatial*DataFrame or a sf class object when input is sf, with local covariances, local correlations (Pearson's), local correlations (Spearman's), p-values of local correlations (Pearson's), p-values of local correlations (Spearman's), local partial correlations (Pearson's), local partial correlations (Spearman's), p-values of local partial correlations (Pearson's), and p-values of local partial correlations (Spearman's).
 }
   \item{vars}{
   Names of variables used for the calculation.
@@ -76,7 +76,7 @@ Whether parallel computation is implemented or not.
    The name of kernel used for the calculation.
 }
    \item{adaptive}{
-   Whether aadaptive kernel is employed or not (TRUE/FALSE),
+   Whether adaptive kernel is employed or not (TRUE/FALSE).
    }
    \item{bw}{
    The bandwidth size used for the calculation.
